@@ -11,13 +11,13 @@ import javax.swing.JPanel;
 public class SwingPractice extends JFrame {
 	public SwingPractice() {
 		JPanel pan1 = new JPanel();	
-		JButton btn1 = new JButton("Click here!");
+		JButton btn1 = new JButton("클릭");
 		add(pan1);
 		pan1.add(btn1);
 		
 		btn1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "You have been clicked");
+				JOptionPane.showMessageDialog(null, "클릭완료");
 			}
 		});
 		
